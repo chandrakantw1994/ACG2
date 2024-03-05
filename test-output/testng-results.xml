@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login function tested by chandrakant]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-01T13:13:23 IST" name="Default suite" finished-at="2024-03-01T13:13:30 IST" duration-ms="7205">
+    <groups>
+      <group name="Smoke testing">
+        <method signature="TestCases.VerifyLoginFunctionality()[pri:1, instance:com.tests.TestCases@128d2484]" name="VerifyLoginFunctionality" class="com.tests.TestCases"/>
+        <method signature="TestCases.VerifyDashboardPageisDispalyed()[pri:2, instance:com.tests.TestCases@128d2484]" name="VerifyDashboardPageisDispalyed" class="com.tests.TestCases"/>
+      </group> <!-- Smoke testing -->
+    </groups>
+    <test started-at="2024-03-01T13:13:23 IST" name="Default test" finished-at="2024-03-01T13:13:30 IST" duration-ms="7205">
+      <class name="com.tests.TestCases">
+        <test-method signature="VerifyLoginFunctionality()[pri:1, instance:com.tests.TestCases@128d2484]" started-at="2024-03-01T13:13:23 IST" name="VerifyLoginFunctionality" finished-at="2024-03-01T13:13:30 IST" duration-ms="7104" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login function tested by chandrakant]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFunctionality -->
+        <test-method signature="VerifyDashboardPageisDispalyed()[pri:2, instance:com.tests.TestCases@128d2484]" started-at="2024-03-01T13:13:30 IST" name="VerifyDashboardPageisDispalyed" finished-at="2024-03-01T13:13:30 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDashboardPageisDispalyed -->
+      </class> <!-- com.tests.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
