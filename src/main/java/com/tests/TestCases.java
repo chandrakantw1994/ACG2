@@ -1,11 +1,14 @@
 package com.tests;
 
+
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import com.pages.*;
+import com.pages.DashboardPage;
+import com.pages.LoginPage;
 
-import junit.framework.Assert;
+
 
 public class TestCases extends LoginPage
 {
@@ -25,5 +28,9 @@ public class TestCases extends LoginPage
 		boolean v =DashboardPage.isDashboardDisplayed();
 		
 		Assert.assertEquals(true, v);
+	}
+	
+	public static void main(String[] args) {
+		
 	}
 }
