@@ -3,12 +3,34 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.tests.TestCases">
+      <class name="com.tests.Script_10_45">
         <methods>
-          <include name="VerifyLoginFunctionality"/>
-          <include name="VerifyDashboardPageisDispalyed"/>
+          <include name="VerifyProductionOrdersPage"/>
+          <include name="verifyProductsPage"/>
+          <include name="openBrowser"/>
+          <include name="verfiyStockPage"/>
+          <include name="verifyAddingLocation"/>
+          <include name="verifyShippingOrdersPage"/>
+          <include name="verifyAuditTrailPage"/>
+          <include name="verifyReportingTab"/>
+          <include name="initBrowser"/>
+          <include name="verifyUserPermissions"/>
+          <include name="verifyDashboard"/>
+          <include name="verfiyCompanyDetailsPage"/>
+          <include name="verifyLocationsPage"/>
+          <include name="verifyUsersTab"/>
+          <include name="ProviderPage"/>
+          <include name="verifySettingsPage"/>
+          <include name="verifyDashboardContent"/>
+          <include name="verifyProductGroupPage"/>
+          <include name="verifyCMOIntegrationTab"/>
+          <include name="verifyRolesTab"/>
+          <include name="verifyAddingSubject"/>
+          <include name="verifySubjectsPage"/>
+          <include name="verifyAddingProduct"/>
+          <include name="verifyLogin"/>
         </methods>
-      </class> <!-- com.tests.TestCases -->
+      </class> <!-- com.tests.Script_10_45 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

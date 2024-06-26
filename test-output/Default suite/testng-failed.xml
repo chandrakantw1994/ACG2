@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.TestCases">
+      <class name="com.tests.Script_10_45">
         <methods>
-          <include name="verify_search_filter_on_PO_page"/>
-          <include name="verify_New_Production_order_Icon"/>
-          <include name="verify_page_sorter_on_PO_page"/>
-          <include name="verify_import_from_excel_Icon"/>
+          <include name="verifyProductsPage"/>
+          <include name="verifyAddingLocation"/>
+          <include name="verifyAddingSubject"/>
+          <include name="verifyAddingProduct"/>
         </methods>
-      </class> <!-- com.tests.TestCases -->
+      </class> <!-- com.tests.Script_10_45 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
