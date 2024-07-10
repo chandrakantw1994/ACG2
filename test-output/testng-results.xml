@@ -1,300 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="24" passed="20" failed="4" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-25T18:19:45 IST" name="Default suite" finished-at="2024-06-25T18:22:09 IST" duration-ms="143652">
+  <suite started-at="2024-07-01T12:17:58 IST" name="Default suite" finished-at="2024-07-01T12:19:05 IST" duration-ms="67364">
     <groups>
     </groups>
-    <test started-at="2024-06-25T18:19:45 IST" name="Default test" finished-at="2024-06-25T18:22:09 IST" duration-ms="143652">
-      <class name="com.tests.Script_10_45">
-        <test-method signature="initBrowser()[pri:1, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:19:45 IST" name="initBrowser" finished-at="2024-06-25T18:19:47 IST" duration-ms="1720" status="PASS">
+    <test started-at="2024-07-01T12:17:58 IST" name="Default test" finished-at="2024-07-01T12:19:05 IST" duration-ms="67364">
+      <class name="com.tests.PO_Sanity">
+        <test-method signature="initBrowser()[pri:1, instance:com.tests.PO_Sanity@73a1e9a9]" started-at="2024-07-01T12:17:58 IST" name="initBrowser" finished-at="2024-07-01T12:18:00 IST" duration-ms="2462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="openBrowser()[pri:2, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:19:47 IST" name="openBrowser" finished-at="2024-06-25T18:19:48 IST" duration-ms="722" status="PASS">
+        <test-method signature="openBrowser()[pri:2, instance:com.tests.PO_Sanity@73a1e9a9]" started-at="2024-07-01T12:18:00 IST" name="openBrowser" finished-at="2024-07-01T12:18:01 IST" duration-ms="870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyLogin()[pri:3, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:19:48 IST" name="verifyLogin" finished-at="2024-06-25T18:19:52 IST" duration-ms="4608" status="PASS">
+        <test-method signature="verifyLogin()[pri:3, instance:com.tests.PO_Sanity@73a1e9a9]" started-at="2024-07-01T12:18:01 IST" name="verifyLogin" finished-at="2024-07-01T12:18:06 IST" duration-ms="4638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyDashboard()[pri:4, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:19:52 IST" name="verifyDashboard" finished-at="2024-06-25T18:19:52 IST" duration-ms="108" status="PASS">
+        <test-method signature="CreatePO()[pri:4, instance:com.tests.PO_Sanity@73a1e9a9]" started-at="2024-07-01T12:18:06 IST" name="CreatePO" finished-at="2024-07-01T12:18:49 IST" duration-ms="43104" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDashboard -->
-        <test-method signature="verifyDashboardContent()[pri:5, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:19:52 IST" name="verifyDashboardContent" finished-at="2024-06-25T18:19:53 IST" duration-ms="247" status="PASS">
+        </test-method> <!-- CreatePO -->
+        <test-method signature="runBatch()[pri:5, instance:com.tests.PO_Sanity@73a1e9a9]" started-at="2024-07-01T12:18:49 IST" name="runBatch" finished-at="2024-07-01T12:19:05 IST" duration-ms="16217" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDashboardContent -->
-        <test-method signature="VerifyProductionOrdersPage()[pri:6, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:19:53 IST" name="VerifyProductionOrdersPage" finished-at="2024-06-25T18:19:59 IST" duration-ms="5940" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyProductionOrdersPage -->
-        <test-method signature="verifyReportingTab()[pri:7, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:19:59 IST" name="verifyReportingTab" finished-at="2024-06-25T18:20:04 IST" duration-ms="5801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyReportingTab -->
-        <test-method signature="verfiyStockPage()[pri:8, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:20:04 IST" name="verfiyStockPage" finished-at="2024-06-25T18:20:08 IST" duration-ms="3100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verfiyStockPage -->
-        <test-method signature="verifyShippingOrdersPage()[pri:9, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:20:08 IST" name="verifyShippingOrdersPage" finished-at="2024-06-25T18:20:13 IST" duration-ms="5172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyShippingOrdersPage -->
-        <test-method signature="verfiyCompanyDetailsPage()[pri:10, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:20:13 IST" name="verfiyCompanyDetailsPage" finished-at="2024-06-25T18:20:19 IST" duration-ms="6482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verfiyCompanyDetailsPage -->
-        <test-method signature="verifyProductsPage()[pri:11, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:20:19 IST" name="verifyProductsPage" finished-at="2024-06-25T18:20:41 IST" duration-ms="22201" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='importproductsbutton']"}
-  (Session info: chrome=126.0.6478.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'INSPOLT370', ip: '172.16.58.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80e1107e6f42e5554da3ff9f9af9b994, findElement {using=xpath, value=//*[@id='importproductsbutton']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\CHANDR~1.W\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63889/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 80e1107e6f42e5554da3ff9f9af9b994]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='importproductsbutton']"}
-  (Session info: chrome=126.0.6478.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'INSPOLT370', ip: '172.16.58.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80e1107e6f42e5554da3ff9f9af9b994, findElement {using=xpath, value=//*[@id='importproductsbutton']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\CHANDR~1.W\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63889/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 80e1107e6f42e5554da3ff9f9af9b994
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at com.tests.Script_10_45.verifyProductsPage(Script_10_45.java:660)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductsPage -->
-        <test-method signature="verifyProductGroupPage()[pri:12, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:20:41 IST" name="verifyProductGroupPage" finished-at="2024-06-25T18:20:44 IST" duration-ms="2257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductGroupPage -->
-        <test-method signature="verifySubjectsPage()[pri:13, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:20:44 IST" name="verifySubjectsPage" finished-at="2024-06-25T18:20:46 IST" duration-ms="2671" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySubjectsPage -->
-        <test-method signature="verifyLocationsPage()[pri:14, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:20:46 IST" name="verifyLocationsPage" finished-at="2024-06-25T18:20:49 IST" duration-ms="2466" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLocationsPage -->
-        <test-method signature="verifyUsersTab()[pri:15, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:20:49 IST" name="verifyUsersTab" finished-at="2024-06-25T18:20:58 IST" duration-ms="9637" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUsersTab -->
-        <test-method signature="verifyRolesTab()[pri:16, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:20:58 IST" name="verifyRolesTab" finished-at="2024-06-25T18:21:02 IST" duration-ms="3185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRolesTab -->
-        <test-method signature="verifyAuditTrailPage()[pri:17, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:21:02 IST" name="verifyAuditTrailPage" finished-at="2024-06-25T18:21:06 IST" duration-ms="4238" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAuditTrailPage -->
-        <test-method signature="ProviderPage()[pri:18, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:21:06 IST" name="ProviderPage" finished-at="2024-06-25T18:21:09 IST" duration-ms="3209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProviderPage -->
-        <test-method signature="verifyCMOIntegrationTab()[pri:19, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:21:09 IST" name="verifyCMOIntegrationTab" finished-at="2024-06-25T18:21:12 IST" duration-ms="3211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCMOIntegrationTab -->
-        <test-method signature="verifySettingsPage()[pri:20, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:21:12 IST" name="verifySettingsPage" finished-at="2024-06-25T18:21:30 IST" duration-ms="17502" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySettingsPage -->
-        <test-method signature="verifyAddingSubject()[pri:21, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:21:30 IST" name="verifyAddingSubject" finished-at="2024-06-25T18:21:39 IST" duration-ms="9330" status="FAIL">
-          <exception class="java.lang.NumberFormatException">
-            <message>
-              <![CDATA[For input string: "882135894200"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NumberFormatException: For input string: "882135894200"
-at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-at java.base/java.lang.Integer.parseInt(Integer.java:668)
-at java.base/java.lang.Integer.parseInt(Integer.java:786)
-at com.tests.Script_10_45.verifyAddingSubject(Script_10_45.java:1435)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NumberFormatException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddingSubject -->
-        <test-method signature="verifyAddingProduct()[pri:22, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:21:39 IST" name="verifyAddingProduct" finished-at="2024-06-25T18:21:52 IST" duration-ms="12503" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "toEscape" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "toEscape" is null
-at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
-at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:114)
-at com.tests.Script_10_45.verifyAddingProduct(Script_10_45.java:1503)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddingProduct -->
-        <test-method signature="verifyAddingLocation()[pri:23, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:21:52 IST" name="verifyAddingLocation" finished-at="2024-06-25T18:21:56 IST" duration-ms="4788" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "toEscape" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "toEscape" is null
-at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
-at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:114)
-at com.tests.Script_10_45.verifyAddingLocation(Script_10_45.java:1570)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddingLocation -->
-        <test-method signature="verifyUserPermissions()[pri:24, instance:com.tests.Script_10_45@74235045]" started-at="2024-06-25T18:21:56 IST" name="verifyUserPermissions" finished-at="2024-06-25T18:22:09 IST" duration-ms="12459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserPermissions -->
-      </class> <!-- com.tests.Script_10_45 -->
+        </test-method> <!-- runBatch -->
+      </class> <!-- com.tests.PO_Sanity -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -24,7 +24,7 @@ import com.opencsv.CSVWriter;
 
 public class PO_Sanity 
 {
-	static String Name_for_PO_n_Lot= "JenkinsPOChan";
+	static String Name_for_PO_n_Lot= "JenkinsPOChan10";
 	
 	//.
 	static WebElement table;
@@ -123,6 +123,10 @@ public class PO_Sanity
 	@Test(priority=4)
 	public static void CreatePO() throws InterruptedException
 	{
+		
+		System.out.println("Test 3: To Create a 3 Stn PO-----------------------------------------------------------");
+
+		
 		driver.findElement(By.xpath("//a[contains(text(),'Production orders')]")).click();
 		
 		driver.findElement(By.xpath("//i[@title='New production order']")).click();
@@ -146,7 +150,7 @@ public class PO_Sanity
 		lotname.sendKeys(Name_for_PO_n_Lot);
 		
 		productiondate = driver.findElement(By.xpath("//input[@id='productiondate']"));
-		productiondate.sendKeys("07.04.2024");
+		productiondate.sendKeys("01.07.2024");
 		
 		mfgdate = driver.findElement(By.xpath("//input[@id='manufacturedate']"));
 		mfgdate.sendKeys("07.04.2024");
@@ -215,6 +219,9 @@ public class PO_Sanity
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("/html/body/div[11]/div[3]/div[1]/button[2]/span")).click();
+		
+		System.out.println("============Po created succesfully=============");
+
 		
 	}
 	
@@ -294,6 +301,8 @@ public class PO_Sanity
 	
 	public static void updatePoidInCSV(String poooid)
 	{
+		
+		System.out.println("======================= updating POID in IP.csv file ==========================");
 		String pooid = poooid;
 		// first create file object for file placed at location 
 	    // specified by filepath 
@@ -315,9 +324,12 @@ public class PO_Sanity
 	  
 	        // closing writer connection 
 	        writer.close(); 
+	        
+	        System.out.println("IP.csv file updated successfully");
 	    } 
 	    catch (IOException e) { 
-	        // TODO Auto-generated catch block 
+	        // TODO Auto-generated catch block
+	    	System.out.println("Failed to update IP.csv");
 	        e.printStackTrace(); 
 	    } 
 	}
@@ -353,22 +365,34 @@ public class PO_Sanity
 	
 	public static void clearUploadsFolder() 
 	{
-		String folderPath = "D:\\apache-jmeter-5.5 (1)\\Projects\\Client-server-single-station\\uploads"; // Replace with the folder you want
-		File folder = new File(folderPath);
-
-		if (folder.exists() && folder.isDirectory()) 
+		try 
 		{
-			File[] files = folder.listFiles();
-			if (files != null) 
+			System.out.println("================= Clearing the uploads folder ================================");
+		
+			String folderPath = "D:\\apache-jmeter-5.5 (1)\\Projects\\Client-server-single-station\\uploads"; // Replace with the folder you want
+			File folder = new File(folderPath);
+	
+			if (folder.exists() && folder.isDirectory()) 
 			{
-				for (File file : files) 
+				File[] files = folder.listFiles();
+				if (files != null) 
 				{
-					if (file.isFile()) 
+					for (File file : files) 
 					{
-						file.delete();
+						if (file.isFile()) 
+						{
+							file.delete();
+						}
 					}
 				}
 			}
+			
+			System.out.println("upload folder is cleared successfully");
+		}
+		catch(Exception e)
+		{
+			System.out.println("Failed to clear Uploads folder");
+			e.printStackTrace();
 		}
 	}
 

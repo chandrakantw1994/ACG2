@@ -19,12 +19,12 @@ public class DashboardPage extends LoginPage
 	public static boolean isDashboardDisplayed()
 	{
 		return Dashboard;
-	}
+	}	
 	//------------------------------------------------------------------------------
 	public static boolean verifyUser()
 	{
 		return user.contains("Selenium Automation");
-	}
+	}	
 	//------------------------------------------------------------------------------
 	public static boolean getPageTitle(String ExpectedTitle)
 	{
